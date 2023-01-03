@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="Style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Code+Pro:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rubik+Moonrocks&family=Source+Code+Pro:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quicksand:wght@300&family=Rubik+Moonrocks&family=Source+Code+Pro:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@100&family=Quicksand:wght@300&family=Rubik+Moonrocks&family=Source+Code+Pro:ital@1&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
+    <script>
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</head>
+<div>
+    <p id="title"><span id="Naman">NAMAN</span> <span id="Bajpai">BAJPAI</span></p>
+</div>
+
+<body class="whole-body">
+    <div class="container">
+        <h1 id="page2-title">
+            <span>Work</span> <span>with</span> <span>me</span>
+        </h1>
+    </div>
+    <nav class="navbar container">
+
+        <div>
+            <ul>
+                <a href="Home.html">
+                    <li>Home</li>
+                </a>
+                <a href="#contact-me">
+                    <li>Contact me</li>
+                </a>
+                <a href="#home-section">
+                    <li>About me</li>
+                </a>
+                <a href="" target="_blank">
+                    <li>My Projects</li>
+                </a>
+                <a href="" target="">
+                    <li>What I have to offer?</li>
+                </a>
+                <a href="https://www.youtube.com/channel/UCYrkbipzeK4107lDzVInrLA">
+                    <button type="button" class="btn btn-danger" id="youtube-channel">My YouTube Channel</button>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <div class="svg-wrapper">
+        <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+            <rect class="shape" height="60" width="320" />
+            <div class="text"></div>
+        </svg>
+    </div>
+    <div class="box1">
+        <p class="description-1 container">
+            I started learning web development back in 2020 along with Java and Python. I am a
+            <span id="stack-1" class="full-stack">full-stack web developer</span> looking for internships.
+        </p>
+    </div>
+    <div class="container">
+        <i class="bi bi-code-square">
+            <h1>Form</h1>
+        </i>
+        <form action="#nowhere">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Address">Address</label>
+                <input type="text" id="address" class="form-control" placeholder="123 Chicken Ranch St">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="City">City</label>
+                    <input type="text" id="City" class="form-control">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="state">State</label>
+                    <select name="state" id="state" class="form-control">
+                        <option value="AL">Albama</option>
+                        <option value="AK">Alaska</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="zip">Zip Code</label>
+                    <input type="text" id="zip" class="form-control">
+                </div>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="tos">
+                <label for="tos" class="custom-control-label"> Sign me up</label>
+            </div>
+        </form>
+        <div>
+            <button type="button" class="btn btn-outline-warning" id="scroll-to-top" onclick="topFunction()">Scroll to
+                top</button>
+        </div>
+    </div>
+    <div class="container footer">
+        <button class="btn btn-primary btn-lg" type="button">Send Feedback</button>
+    </div>
+
+</body>
+
+</html>

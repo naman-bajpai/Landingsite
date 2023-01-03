@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+html {
+   scroll-behavior: smooth;
+}
+
+#whole-body body {
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.8rem;
+   font-weight: 400;
+   line-height: 1.4;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+#Naman:hover {
+   color: red;
+   transition: 0.5s;
+}
+
+#Bajpai:hover {
+   color: red;
+   transition: 0.5s;
+}
+
+#title {
+   font-size: 54px;
+   font-family: 'Monsterrat';
+   background-color: black;
+   color: white;
+   margin-left: 40%;
+}
+
+
+#page2-title {
+   font-family: 'Padauk', sans-serif;
+}
+
+nav ul li {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 45px;
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px 25px;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   font-weight: bold;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+nav ul li:hover {
+   color: red;
+   box-shadow: 2px 2px 4px 1px green;
+   transform: translateY(-0.1em);
+   cursor: pointer;
+}
+
+
+
+.whole-body {
+   background-color: black;
+   color: white;
+}
+
+
+.description-1 {
+   text-align: center;
+   background: transparent;
+   font-size: 1.5rem;
+   font-family: 'Quicksand', sans-serif;
+   margin-bottom: 100px;
+}
+
+.description-1:hover {
+   border: 2px solid red;
+   color: white;
+   box-shadow: 2px 2px 4px 1px red;
+   transform: translateY(-0.1em);
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+
+.ft-Feedback li {
+   margin-top: 2rem;
+   color: white;
+   font-weight: bold;
+   background-color: #151413;
+
+}
+
+li {
+   text-align: center;
+}
+
+
+.ft-Feedback {
+   margin-top: 40px;
+   align-items: center;
+   padding: 10px 10px 10px 10px;
+   border-radius: 20%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+}
+
+.ft-Feedback:hover {
+   background-color: aquamarine;
+   text-decoration: none;
+   color: black;
+   transition: 0.5s;
+}
+
+.full-stack {
+   font-style: red;
+   color: red;
+}
+
+.footer {
+   margin-top: 40px;
+}
+
+#scroll-to-top{
+   margin-top: 30px;
+   align-items: center;
+   margin-left: 40%;
+}
